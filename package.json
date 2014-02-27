@@ -1,0 +1,13 @@
+{
+  "name": "cucumber",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Cucumber support for atom. Converted from https://github.com/cucumber/cucumber-tmbundle",
+  "repository": "https://github.com/atom/cucumber",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
