@@ -14,3 +14,4 @@
       'And'
       'But'
     ]
+    'increaseIndentPattern': 'Scenario: .*'
