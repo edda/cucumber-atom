@@ -1,16 +1,16 @@
 'fileTypes': [
   'steps.rb'
 ]
-'foldingStartMarker': '^\\s*\\b(Given|When|Then|def)'
+'foldingStartMarker': '^\\s*\\b(Given|When|And|Then|def)'
 'foldingStopMarker': '^\\s*(end)$'
 'name': 'Cucumber Steps'
 'patterns': [
   {
-    'match': '\\b(GivenScenario|Given|When|Then)\\b'
+    'match': '\\b(GivenScenario|Given|When|And|Then)\\b'
     'name': 'keyword.other.step.cucumber'
   }
   {
-    'begin': '\\b(?<=GivenScenario|Given|When|Then) (")'
+    'begin': '\\b(?<=GivenScenario|Given|When|And|Then) (")'
     'captures':
       '1':
         'name': 'string.quoted.double.ruby'
@@ -29,7 +29,7 @@
     ]
   }
   {
-    'begin': '\\b(?<=GivenScenario|Given|When|Then) (\')'
+    'begin': '\\b(?<=GivenScenario|Given|When|And|Then) (\')'
     'captures':
       '1':
         'name': 'string.quoted.single.ruby'
@@ -48,7 +48,7 @@
     ]
   }
   {
-    'begin': '\\b(?<=GivenScenario|Given|When|Then) (/)'
+    'begin': '\\b(?<=GivenScenario|Given|When|And|Then) (/)'
     'captures':
       '1':
         'name': 'string.regexp.classic.ruby'
@@ -64,7 +64,7 @@
     ]
   }
   {
-    'begin': '\\b(?<=GivenScenario|Given|When|Then) (%r{)'
+    'begin': '\\b(?<=GivenScenario|Given|When|And|Then) (%r{)'
     'captures':
       '1':
         'name': 'string.regexp.mod-r.ruby'
