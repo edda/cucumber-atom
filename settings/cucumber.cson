@@ -1,5 +1,6 @@
 '.text.gherkin.feature':
   'editor':
+    'commentStart': '# '
     'completions': [
       'As a'
       'As an'
