@@ -1,7 +1,7 @@
 {
   "name": "cucumber",
   "main": "./lib/main",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "private": true,
   "description": "Cucumber support for atom. Converted from https://github.com/cucumber/cucumber-tmbundle",
   "activationCommands": {
