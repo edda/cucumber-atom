@@ -1,0 +1,18 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Cucumber",
+          "submenu": [
+            {
+              "label": "Align Table Cells",
+              "command": "cucumber:align-table-cells"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
