@@ -45,12 +45,16 @@
     'match': '\\s*(#.*)'
   'table':
     'begin': '^\\s*\\|'
-    'end': '\\|\\s*$'
+    'end': '(\\|\\s*$|^\\n$)'
     'name': 'keyword.control.cucumber.table'
     'patterns': [
       {
         'match': '\\.'
         'name': 'source'
+      }
+      {
+        'match': '\\s*\\#[^|]*$'
+        'name': 'comment.line.number-sign'
       }
     ]
   'feature_keyword':
