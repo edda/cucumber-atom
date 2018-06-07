@@ -45,7 +45,7 @@
     'match': '\\s*(#.*)'
   'table':
     'begin': '^\\s*\\|'
-    'end': '(\\|\\s*$|^\\n$)'
+    'end': '(\\|\\s*$|^\\n\\s*$)'
     'name': 'keyword.control.cucumber.table'
     'patterns': [
       {
